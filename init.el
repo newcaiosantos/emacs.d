@@ -152,3 +152,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; TKS https://github.com/kiwanami/emacs-epc/issues/35
+(setq byte-compile-warnings '(cl-functions))
