@@ -155,3 +155,6 @@
 
 ;; TKS https://github.com/kiwanami/emacs-epc/issues/35
 (setq byte-compile-warnings '(cl-functions))
+
+;; TKS https://stackoverflow.com/questions/13671839/cant-launch-lein-repl-in-emacs/13671840
+(add-to-list 'exec-path "/Applications/clojure")
